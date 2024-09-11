@@ -27,9 +27,7 @@ log                   = "0.4"
 simple_logger         = "5.0"
 time                  = "0.3"
 serde_json            = "1.0"
-
-[dependencies.jellyfin-rpc]
-version  = "1.2.2"
+jellyfin-rpc = { path = "../jellyfin-rpc" }
 #path = "../jellyfin-rpc"
 
 [dependencies.clap]

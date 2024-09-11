@@ -16,7 +16,7 @@ impl RawSession {
 
         let id = match now_playing_item.media_type {
             MediaType::Episode => now_playing_item.series_id.unwrap_or(now_playing_item.id),
-            MediaType::Music => now_playing_item.album_id.unwrap_or(now_playing_item.id),
+            // MediaType::Music => now_playing_item.album_id.unwrap_or(now_playing_item.id),
             _ => now_playing_item.id,
         };
 
